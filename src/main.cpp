@@ -1,4 +1,9 @@
+//
+// Created by null on 28.08.17.
+//
+
 #include <iostream>
+#include <memory>
 
 #include "CLogReader.h"
 
@@ -9,8 +14,8 @@ static void show_usage(std::string name)
 {
     std::cerr << "Usage: " << name << " <option(s)> SOURCE\n"
               << "Options:\n"
-              << "\t-h,--help\t\t\t\tShow this help message\n"
-              << "\t-f,--filter pattern\t\tSpecify the filter pattern"
+              << "\t-h,--help\t\tShow this help message\n"
+              << "\t-f,--filter pattern\tSpecify the filter pattern"
               << std::endl;
 }
 
